@@ -9,7 +9,7 @@ set-option -g status-utf8 on
 set-option -g status-justify "centre"
 set-option -g status-left-length 60
 set-option -g status-right-length 90
-set-option -g status-left "#('`pwd`'/powerline.s
+set-option -g status-left "#('`pwd`'/powerline.sh left)"
 set-option -g status-right "#('`pwd`'/powerline.sh right)"
 set-option -g status-bg colour'$TMUX_POWERLINE_DEFAULT_BACKGROUND_COLOR'
 set-option -g status-fg colour'$TMUX_POWERLINE_DEFAULT_FOREGROUND_COLOR > ~/.tmux.conf
